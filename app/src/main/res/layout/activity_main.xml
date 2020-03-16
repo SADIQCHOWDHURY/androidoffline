@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nature"
+    tools:context=".MainActivity">
+<ImageView
+    android:src="@mipmap/ic_launcher_round"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAYOUT BUTTONS"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:background="@drawable/custombutton"
+        android:id="@+id/relativeID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       android:layout_marginTop="50dp"
+        android:text="RELATIVE LAYOUT"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:background="@drawable/custombutton"
+        android:id="@+id/tableID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="   TABLE LAYOUT   "
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:background="@drawable/custombutton"
+        android:id="@+id/frameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="   FRAME LAYOUT   "
+        android:textStyle="bold"
+        />
+
+
+
+    <Button
+        android:background="@drawable/custombutton"
+        android:id="@+id/absoluteID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="ABSOLUTE LAYOUT"
+        android:textStyle="bold"
+        />
+
+
+
+
+</LinearLayout>
